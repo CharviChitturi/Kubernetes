@@ -1,0 +1,17 @@
+1. What is Kubernetes?
+Kubernetes (K8s) is an open-source platform used to manage, deploy and scale containerized applications.
+
+It is a container orchestration tool.
+What is orchestration?
+Orchestration means automatically managing and coordinating multiple containers.
+
+For example, if you have 10 containers running your application, you need to:
+- Make sure all containers are running.
+- Restart containers if they fail.
+- Distribute traffic between containers.
+- Increase or decrease the number of containers based on demand.
+- Manage containers across multiple servers.
+Kubernetes automates these tasks instead of requiring you to manage containers manually.
+
+Docker:
+Docker is an open-source platform that packages applications and all their dependencies into standardized, isolated units called containers. It solves the classic "it works on my machine" problem by ensuring software runs identically across a developer's laptop, a testing server, or the cloud.
